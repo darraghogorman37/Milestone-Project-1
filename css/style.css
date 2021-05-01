@@ -1,0 +1,66 @@
+/*...................................Colours*/
+header {
+    height: 90px;
+    background-color: rgb(161, 26, 26);
+    width: fullscreen;
+
+}
+
+.logo {
+    background-image: url('Picture1.jpg');
+    background-color: cadetblue;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: fullscreen;
+    height: 150px;
+}
+
+.reason1 {
+    background-color: rgb(16, 13, 187);
+    width: fullscreen;
+    height: 180px;
+    width: fullscreen;
+}
+
+.reason2 {
+    background-color: rgb(8, 1, 24);
+    width: fullscreen;
+    height: 180px;
+    width: fullscreen;
+}
+
+.reason3 {
+    background-color: rgb(16, 13, 187);
+    width: fullscreen;
+    height: 180px;
+    width: fullscreen;
+}
+
+.reason4 {
+    background-color: rgb(8, 1, 24);
+    width: fullscreen;
+    height: 180px;
+    width: fullscreen;
+}
+
+.map {
+    height: 180px;
+    background-color: rgb(114, 161, 26);
+    width: fullscreen; 
+}
+
+footer {
+    height: 120px;
+    background-color: rgb(161, 26, 26);
+    width: fullscreen;
+}
+
+.footer-div {
+    text-align: center;
+}
+
+
+
+
+
+
