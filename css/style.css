@@ -7,40 +7,66 @@ header {
 }
 
 .logo {
-    background-image: url('Picture1.jpg');
-    background-color: cadetblue;
-    background-repeat: no-repeat;
-    background-position: center;
+    background-color: rgba(23, 23, 24, 0.993);
     width: fullscreen;
     height: 150px;
+    
+    
+}
+
+.icon {
+    
+    border-width: 2px;
+    border-radius: 50%;
+    padding: 2px;
+    border-color: red;
+    background-color: rgba(23, 23, 24, 0.993);
+}
+
+.icon i {
+    color: white;
 }
 
 .reason1 {
-    background-color: rgb(16, 13, 187);
+    
     width: fullscreen;
-    height: 180px;
-    width: fullscreen;
+    height: 150px;
+    background-image: url('strength.jpg');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: rgba(23, 23, 24, 0.993);
+
 }
 
 .reason2 {
-    background-color: rgb(8, 1, 24);
     width: fullscreen;
-    height: 180px;
-    width: fullscreen;
+    height: 150px;
+    background-image: url('getflexible.jpg');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: rgba(23, 23, 24, 0.993);
 }
 
 .reason3 {
-    background-color: rgb(16, 13, 187);
     width: fullscreen;
-    height: 180px;
-    width: fullscreen;
+    height: 150px;
+    background-image: url('burnfat.jpg');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: rgba(23, 23, 24, 0.993);
 }
 
 .reason4 {
-    background-color: rgb(8, 1, 24);
     width: fullscreen;
-    height: 180px;
-    width: fullscreen;
+    height: 150px;
+    background-image: url('feelgreat.jpg');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: rgba(23, 23, 24, 0.993);
 }
 
 .map {
@@ -58,6 +84,24 @@ footer {
 .footer-div {
     text-align: center;
 }
+
+.strengthpic {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+h2 {
+    color: white;
+    font-family: 'Alfa Slab One', cursive;
+    
+}
+
+h1 {
+    color: white;
+    font-family: 'Alfa Slab One', cursive;
+    text-decoration: underline;
+
 
 
 
