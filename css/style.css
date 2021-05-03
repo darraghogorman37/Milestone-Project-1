@@ -8,12 +8,6 @@ header {
 
 
 
-i {
-    color: white;
-    font-size: 50px;
-}
-
-
 
 .map {
     height: 180px;
@@ -48,6 +42,8 @@ h1 {
 .slogan {
     text-align: center;
     background-color: rgba(23, 23, 24, 0.993);
+    padding-top: 30px;
+    padding-bottom: 20px;
 }
 
 .reasons {
@@ -79,11 +75,50 @@ img {
     border-style: solid;
     border-radius: 50%;
     text-align: center;
+    color: white;
 }
 
 .logocontainer {
     padding-top: 30px;
     background-color: rgba(23, 23, 24, 0.993);
+}
+
+.slogan p {
+    size: 1rem;
+    color: white;
+    text-transform: uppercase;
+    font-family: 'Lato', sans-serif;
+    letter-spacing: 4px;
+    padding-top: 30px;
+    
+
+}
+
+.slogan hr {
+    color:rgb(161, 26, 26);
+    height: 5px;
+}
+
+
+@media screen and (min-width: 200px) {
+    .iconcol {
+        font-size: 45px;
+    }
+}
+
+
+@media screen and (min-width: 768px) {
+    .iconcol {
+        font-size: 80px;
+    }
+
+    .slogan h1 {
+        font-size: 50px;
+    }
+
+    .slogan p {
+        font-size: 25px;
+    }
 }
 
 
