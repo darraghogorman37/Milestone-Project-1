@@ -149,6 +149,27 @@ img {
     
 }
 
+/*for signup.html........................................................................*/
+
+li {
+    list-style: none;
+}
+
+.inputbox {
+    margin: 5px 0px 5px;
+}
+
+.basicdetails {
+    margin: 10px 3px 10px;
+}
+
+.textarea {
+    margin-top: 10px;
+}
+
+.fitnessgoals {
+    margin-top: 40px;
+}
 
 
 
