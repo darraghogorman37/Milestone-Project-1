@@ -9,10 +9,26 @@ header {
 }
 
 footer {
-    height: 120px;
     background-color: rgb(161, 26, 26);
     width: fullscreen;
     text-align: center;
+    padding-top: 15px;
+}
+
+footer p {
+    padding: 10px;
+    margin: 0px;
+    font-size: 12px;
+}
+
+footer a {
+    padding: 15px 10px 15px;
+    font-size: 24px;
+}
+
+footer a, footer a:focus, a:active {
+    text-decoration: none;
+    color: inherit;
 }
 
 h1 {
@@ -23,6 +39,10 @@ h1 {
 
 h2 {
     font-family: 'Alfa Slab One', cursive;    
+}
+
+.copyright-text {
+    font-size: 8px;
 }
 
 .logocontainer {
