@@ -1,65 +1,38 @@
+/*Styling Common to all pages.........................................................*/
 
-header {
-    height: 90px;
-    background-color: rgb(161, 26, 26);
-    width: fullscreen;
+.mainbody {
+    color: white;
 }
 
-
-
-
-
-.map {
-    height: 180px;
-    background-color: rgb(114, 161, 26);
-    width: fullscreen; 
+header {
+    width: fullscreen;
 }
 
 footer {
     height: 120px;
     background-color: rgb(161, 26, 26);
     width: fullscreen;
-}
-
-.footer-div {
     text-align: center;
 }
 
-
-h2 {
-    color: white;
-    font-family: 'Alfa Slab One', cursive;
-    
-}
-
 h1 {
-    color: white;
     font-family: 'Alfa Slab One', cursive;
     text-decoration: underline;
     text-transform: uppercase;
 }
 
-.slogan {
-    text-align: center;
-    background-color: rgba(23, 23, 24, 0.993);
+h2 {
+    font-family: 'Alfa Slab One', cursive;    
+}
+
+.logocontainer {
     padding-top: 30px;
-    padding-bottom: 20px;
-}
-
-.reasons {
     background-color: rgba(23, 23, 24, 0.993);
-    margin: 0 0;
-}
-
-img {
-    max-width: 100%;
-    height: auto;
 }
 
 .logorow {
     background-color: rgba(23, 23, 24, 0.993);
-    margin-top: 30px;
-    
+    margin-top: 30px;   
 }
 
 .iconcol {
@@ -75,29 +48,111 @@ img {
     border-style: solid;
     border-radius: 50%;
     text-align: center;
-    color: white;
 }
 
-.logocontainer {
-    padding-top: 30px;
+.callout-bar {
+    height: 60px;
+    width: fullscreen;
+    background-color: red;
+    padding: 2px 6px;
+    text-align: center;
+}
+
+.callout-bar p {
+    padding-top: 8px;
+}
+
+.callout-bar a {
+    margin-bottom: 5px;
+}
+
+/*
+padding reqd for button - use SASS
+padding: 1px 1px 4px;
+*/
+
+/*Styling for Index.html..................................................*/
+
+.slogan {
+    text-align: center;
     background-color: rgba(23, 23, 24, 0.993);
+    padding-top: 30px;
+    padding-bottom: 20px;
 }
 
 .slogan p {
     size: 1rem;
-    color: white;
     text-transform: uppercase;
     font-family: 'Lato', sans-serif;
     letter-spacing: 4px;
     padding-top: 30px;
-    
-
 }
 
 .slogan hr {
     color:rgb(161, 26, 26);
     height: 5px;
 }
+
+.reasons {
+    background-color: rgba(23, 23, 24, 0.993);
+    margin: 0 0;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.map {
+    height: 180px;
+    width: fullscreen; 
+}
+    
+
+/*Styling for signup.html........................................................................*/
+
+li {
+    list-style: none;
+}
+
+.inputbox {
+    margin: 5px 0px 5px;
+}
+
+.basicdetails {
+    margin: 10px 3px 10px;
+}
+
+.textarea {
+    margin-top: 10px;
+}
+
+.fitnessgoals {
+    margin-top: 40px;
+}
+
+/*Styling for our-classes.html........................................................................*/
+
+.tabledata {
+    border-width: 2px;
+    border-style: solid;
+    font-size: 0.75rem;
+    border-color: black;
+}
+
+.tablerow {
+    border-width: 1px;
+    border-style: solid;
+    font-size: 0.75rem;
+    border-color: black;  
+}
+
+.ourclassesmain {
+    background-color: rgba(23, 23, 24, 0.993);
+}
+
+
+/*Media Screen Queries..................................................................................*/
 
 
 @media screen and (min-width: 200px) {
@@ -145,69 +200,3 @@ img {
 .slogan h1 {
     padding-top: 50px;
 }
-
-    
-}
-
-/*for signup.html........................................................................*/
-
-li {
-    list-style: none;
-}
-
-.inputbox {
-    margin: 5px 0px 5px;
-}
-
-.basicdetails {
-    margin: 10px 3px 10px;
-}
-
-.textarea {
-    margin-top: 10px;
-}
-
-.fitnessgoals {
-    margin-top: 40px;
-}
-
-/*for class-schedule.html........................................................................*/
-
-.tabledata {
-    border-width: 2px;
-    border-style: solid;
-    font-size: 0.75rem;
-    border-color: black;
-}
-
-.tablerow {
-    border-width: 1px;
-    border-style: solid;
-    font-size: 0.75rem;
-    border-color: black;
-    
-}
-
-td {
-    border-width: inherit;
-    border-style: inherit;
-    font-size: 0.75rem;
-    border-color: inherit;
-}
-
-tbody {
-    border-width: 2px;
-    border-style: solid;
-    font-size: 0.75rem;
-    border-color: black;
-}
-
-
-
-
-
-
-
-
-
-
