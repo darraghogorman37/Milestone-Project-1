@@ -171,9 +171,36 @@ li {
     margin-top: 40px;
 }
 
+/*for class-schedule.html........................................................................*/
 
+.tabledata {
+    border-width: 2px;
+    border-style: solid;
+    font-size: 0.75rem;
+    border-color: black;
+}
 
+.tablerow {
+    border-width: 1px;
+    border-style: solid;
+    font-size: 0.75rem;
+    border-color: black;
+    
+}
 
+td {
+    border-width: inherit;
+    border-style: inherit;
+    font-size: 0.75rem;
+    border-color: inherit;
+}
+
+tbody {
+    border-width: 2px;
+    border-style: solid;
+    font-size: 0.75rem;
+    border-color: black;
+}
 
 
 
