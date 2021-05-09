@@ -86,10 +86,6 @@ h2 {
     margin-bottom: 5px;
 }
 
-/*
-padding reqd for button - use SASS
-padding: 1px 1px 4px;
-*/
 
 /*Styling for Index.html..................................................*/
 
@@ -131,8 +127,24 @@ img {
 
 /*Styling for signup.html........................................................................*/
 
+form {
+    background-color: rgba(23, 23, 24, 0.993);
+}
+
 li {
     list-style: none;
+}
+
+.logocontainer-signup {
+        padding-top: 10px;
+        padding-bottom: 10px;
+        background-color: rgba(23, 23, 24, 0.993);
+}
+
+.signup-ul {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 0px;
 }
 
 .inputbox {
@@ -151,24 +163,49 @@ li {
     margin-top: 40px;
 }
 
+.submit-btn {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.submit-btn input {
+    border-radius: 5px;
+    background-color: red;
+    font-weight: bold;
+    font-size: 20px;
+    border-style: none;
+}
+
 /*Styling for our-classes.html........................................................................*/
 
 .tabledata {
-    border-width: 2px;
-    border-style: solid;
-    font-size: 0.75rem;
-    border-color: black;
+    border-width: 1px;
+    border-color: rgb(161, 26, 26);
+    text-align: center;
 }
 
 .tablerow {
     border-width: 1px;
     border-style: solid;
     font-size: 0.75rem;
-    border-color: black;  
+    border-color: rgb(161, 26, 26);  
 }
 
 .ourclassesmain {
     background-color: rgba(23, 23, 24, 0.993);
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.ourclassesmain p {
+    text-align: justify;
+}
+
+.ourclassesmain h2 {
+    padding-top: 15px;
+    margin-bottom: 5px;
 }
 
 
