@@ -209,7 +209,7 @@ li {
 }
 
 
-/*Media Screen Queries..................................................................................*/
+/*Media Screen Queries Common to all Pages..................................................................................*/
 
 
 @media screen and (min-width: 200px) {
@@ -256,4 +256,18 @@ li {
 
 .slogan h1 {
     padding-top: 50px;
+    }
+}
+
+/*Media Screen Queries - SignUp Page..............................................*/
+
+@media screen and (min-width: 768px) {
+    .inputbox {
+        margin-bottom: 20px;
+
+    }
+
+    .inputbox input {
+        width: 90%;
+    }
 }
