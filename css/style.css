@@ -157,10 +157,12 @@ li {
 
 .textarea {
     margin-top: 10px;
+    max-width: 100%;
 }
 
 .fitnessgoals {
     margin-top: 40px;
+    max-width: 80%;
 }
 
 .submit-btn {
@@ -264,10 +266,22 @@ li {
 @media screen and (min-width: 768px) {
     .inputbox {
         margin-bottom: 20px;
-
+        
     }
 
     .inputbox input {
         width: 90%;
+    }
+
+    .fitnessgoals {
+    margin-top: 40px;
+    padding-right: 20px;
+    padding-left: 120px;
+    }
+}
+
+@media screen and (max-width: 310px) {
+    .inputbox input {
+        max-width: 80%
     }
 }
