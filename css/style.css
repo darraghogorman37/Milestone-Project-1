@@ -71,7 +71,7 @@ h2 {
 }
 
 .callout-bar {
-    height: 60px;
+    min-height: 60px;
     width: fullscreen;
     background-color: red;
     padding: 2px 6px;
@@ -80,6 +80,7 @@ h2 {
 
 .callout-bar p {
     padding-top: 8px;
+    margin-bottom: .3rem;
 }
 
 .callout-bar a {
@@ -233,6 +234,26 @@ li {
     .slogan p {
         font-size: 25px;
     }
+
+    .map {
+        height: 240px;
+    }
+
+    .map iframe {
+        height: 240px;
+    }
+
+    footer a {
+        font-size: 36px;
+    }
+
+    footer p {
+        font-size: 18px;
+    }
+
+    .copyright-text {
+        font-size: 12px;
+    }
 }
 
 @media screen and (min-width: 1280px) {
@@ -260,6 +281,8 @@ li {
     padding-top: 50px;
     }
 }
+
+
 
 /*Media Screen Queries - SignUp Page..............................................*/
 
