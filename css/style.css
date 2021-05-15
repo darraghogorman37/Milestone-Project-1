@@ -196,19 +196,24 @@ li {
 
 .ourclassesmain {
     background-color: rgba(23, 23, 24, 0.993);
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
     padding-bottom: 20px;
     padding-top: 20px;
 }
 
 .ourclassesmain p {
     text-align: justify;
+    margin-bottom: 2rem;
 }
 
 .ourclassesmain h2 {
     padding-top: 15px;
     margin-bottom: 5px;
+}
+
+.ourclassesmain table {
+    margin-top: 1rem;
 }
 
 
@@ -326,4 +331,27 @@ li {
         padding-right: 350px;
     }
 
+}
+
+/*Media Screen Queries - Our-Classes Page..............................................*/
+
+@media screen and (min-width: 200px) {
+    .tablerow {
+        font-size: .7rem;
+    }
+}
+
+@media screen and (min-width: 320px) {
+    .tablerow {
+        font-size: .8rem;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .tablerow {
+        font-size: 1.5rem;
+    }
+    .ourclassesmain p {
+        font-size: 1.3rem;
+    }
 }
