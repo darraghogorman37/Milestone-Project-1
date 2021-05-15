@@ -277,9 +277,10 @@ li {
         padding-bottom: 20px;
     }
 
-.slogan h1 {
+    .slogan h1 {
     padding-top: 50px;
     }
+
 }
 
 
@@ -307,4 +308,22 @@ li {
     .inputbox input {
         max-width: 80%
     }
+
+}
+
+@media screen and (min-width: 1920px) {
+    .sign-up li {
+        padding-left: 300px;
+        padding-right: 300px;
+    }
+
+    .slogan h1 {
+    padding-top: 50px;
+    }
+
+    .fitnessgoals {
+        padding-left: 320px;
+        padding-right: 350px;
+    }
+
 }
