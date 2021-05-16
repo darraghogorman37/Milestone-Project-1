@@ -250,7 +250,7 @@ li {
     border-radius: 0px;
 }
 
-/*Styling for members-quotes.html.........................................*/
+/*Styling for members-quotes.html.................................*/
 
 .quotes {
     clear: both;
@@ -262,6 +262,32 @@ li {
     height: 100px;
 }
 
+/*Styling for news-events.html page.................................*/
+
+.news-events-table {
+    width: 80%;
+    margin: 30px auto;
+}
+
+.news-events h2 {
+    text-align: center;
+    margin: 30px;
+}
+
+.post-date-topic {
+    width: 50%;
+}
+
+.post-text {
+    width: 100%;
+    padding-bottom: 30px;
+}
+
+.underline {
+    border-bottom: 2px;
+    border-color: red;
+    border-style: solid;
+}
 
 
 /*Media Screen Queries Common to all Pages..................................................................................*/
