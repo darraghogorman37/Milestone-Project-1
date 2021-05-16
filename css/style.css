@@ -262,7 +262,7 @@ li {
     height: 100px;
 }
 
-/*Styling for news-events.html page.................................*/
+/*Styling for news.html page.................................*/
 
 .news-events-table {
     width: 80%;
@@ -287,6 +287,24 @@ li {
     border-bottom: 2px;
     border-color: red;
     border-style: solid;
+}
+
+#exercise-video-container {
+    max-width: 100%;
+    margin: 20px auto;
+    text-align: center; 
+    
+}
+
+
+#exercise-section {
+    max-width: 80%;
+    margin: 20px auto;
+    
+}
+
+#exercise-video {
+    max-width: 100%;
 }
 
 
