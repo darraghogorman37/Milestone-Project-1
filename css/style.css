@@ -4,13 +4,8 @@
     color: white;
 }
 
-header {
-    width: fullscreen;
-}
-
 footer {
     background-color: rgb(161, 26, 26);
-    width: fullscreen;
     text-align: center;
     padding-top: 15px;
 }
@@ -71,7 +66,6 @@ h2 {
 
 .callout-bar {
     min-height: 60px;
-    width: fullscreen;
     background-color: red;
     padding: 2px 6px;
     text-align: center;
@@ -86,6 +80,10 @@ h2 {
     margin-bottom: 5px;
 }
 
+.map iframe {
+    width: 100%;
+}
+
 
 /*Styling for Index.html..................................................*/
 
@@ -97,7 +95,6 @@ h2 {
 }
 
 .slogan p {
-    size: 1rem;
     text-transform: uppercase;
     font-family: 'Lato', sans-serif;
     letter-spacing: 4px;
@@ -127,7 +124,7 @@ img {
 
 .map {
     height: 180px;
-    width: fullscreen; 
+    
 }
 
 .image-grid {
@@ -318,8 +315,6 @@ li {
 }
 
 
-
-
 /*Media Screen Queries - SignUp Page..............................................*/
 
 @media screen and (min-width: 768px) {
@@ -375,13 +370,38 @@ li {
     .tablerow {
         font-size: .8rem;
     }
+
+    .tabledata {
+        width: 8%;
+    }
 }
 
 @media screen and (min-width: 768px) {
+
     .tablerow {
         font-size: 1.5rem;
     }
+
     .ourclassesmain p {
         font-size: 1.3rem;
     }
+
+    .tabledata {
+        width: 9%;
+        height: 3rem;
+    }
 }
+
+@media screen and (min-width: 769px) {
+    .table-area-smaller-screens {
+        display: none;
+    }
+}
+
+
+@media screen and (max-width: 769px) {
+    .table-area-larger-screens {
+        display: none;
+    }
+}
+
