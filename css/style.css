@@ -233,6 +233,23 @@ li {
 }
 
 
+/*Styling for Gallery page.................................*/
+
+#photo {
+    clear: both;
+    line-height: 0;
+    column-count: 2;
+    column-gap: 0px;
+    background-color: rgba(23, 23, 24, 0.993);
+}
+
+#photo img{
+    width: 100%;
+    border: none;
+    border-radius: 0px;
+}
+
+
 /*Media Screen Queries Common to all Pages..................................................................................*/
 
 
@@ -405,3 +422,10 @@ li {
     }
 }
 
+/*Media Screen Queries - Gallery Page..............................................*/
+
+@media screen and (min-width: 768px) {
+    #photo {
+        column-count: 4;
+    }
+}
