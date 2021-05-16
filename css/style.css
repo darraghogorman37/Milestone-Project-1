@@ -2,6 +2,7 @@
 
 .mainbody {
     color: white;
+    background-color: rgba(23, 23, 24, 0.993);
 }
 
 footer {
@@ -244,10 +245,23 @@ li {
 }
 
 #photo img{
-    width: 100%;
+    max-width: 100%;
     border: none;
     border-radius: 0px;
 }
+
+/*Styling for members-quotes.html.........................................*/
+
+.quotes {
+    clear: both;
+    background-color: rgba(23, 23, 24, 0.993);
+}
+
+.quotes img {
+    float: left;
+    height: 100px;
+}
+
 
 
 /*Media Screen Queries Common to all Pages..................................................................................*/
@@ -429,3 +443,5 @@ li {
         column-count: 4;
     }
 }
+
+
