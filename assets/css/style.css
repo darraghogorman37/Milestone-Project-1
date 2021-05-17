@@ -9,6 +9,7 @@ footer {
     background-color: rgb(161, 26, 26);
     text-align: center;
     padding-top: 15px;
+    clear: both;
 }
 
 footer p {
@@ -255,11 +256,24 @@ li {
 .quotes {
     clear: both;
     background-color: rgba(23, 23, 24, 0.993);
+    margin-bottom: 50px;
 }
 
 .quotes img {
     float: left;
-    height: 100px;
+    margin-right: 15px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    margin-left: 5px0;
+    height: 60px;
+}
+
+.quotes p {
+    font-family: 'Lato', sans-serif;
+    text-align: justify;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: .3rem;
 }
 
 /*Styling for news.html page.................................*/
@@ -487,5 +501,36 @@ li {
         column-count: 4;
     }
 }
+
+/*Media Screen Queries - Members-Quotes Page..............................................*/
+
+@media screen and (min-width: 1020px) {
+    .quotes img {
+        height: 150px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .quotes img {
+        height: 150px;
+    }
+
+    .quotes p {
+        font-size: 2rem;
+    }
+}
+
+@media screen and (max-width: 300px) {
+    .quotes p {
+        text-align: left;
+    }
+}
+
+
+
+
+
+
+
 
 
