@@ -322,6 +322,30 @@ li {
 }
 
 
+/*Styling for facilities.html.....................................*/
+
+#facilities {
+    margin: 0px 15px;
+}
+
+#facilities p {
+    text-align: justify;
+}
+
+ul {
+    list-style: none;
+}
+
+#facilities li::before {
+    content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+    color: white; /* Change the color */
+    font-weight: bold; /* If you want it to be bold */
+    display: inline-block; /* Needed to add space between the bullet and the text */
+    width: 1em; /* Also needed for space (tweak if needed) */
+    margin-left: -1em; /* Also needed for space (tweak if needed) */
+  }
+
+
 /*Media Screen Queries Common to all Pages..................................................................................*/
 
 
