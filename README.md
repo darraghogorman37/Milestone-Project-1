@@ -1,9 +1,3 @@
-# Your Project's Name TEMP
-
-One or two paragraphs providing an overview of your project.
-
-Essentially, this part is your sales pitch.
-
 # All-in-Gym Website
 
 This is a website for a commercial gym located in Dublin, Ireland. The website attracts new members for the business' owners by providing key relevant information to potential members in a sleek and easy-to-follow format. The website is easily navigatable for new users and interested potential new members are subtly encouraged to sign-up to a free trial which is one of the business' owners key marketing tools. 
@@ -24,62 +18,117 @@ This section is also where you would share links to any wireframes, mockups, dia
 
 The following User Stories were used to focus the development of the project;
 
+### Gym Owner
+
 1. As a gym owner, I want the business to be easily discoverable when the business name is searched for on the Google search engine, so that potential customers can find us.
 2. As a gym owner, I want to allow potential members to sign-up for the free trial, so that we can introduce them to what the gym has to offer.
-As a gym owner, I want to use the website as key marketing tool in order to build the gym's brand, culture and Unique Selling Point.
-As a gym owner, I want to showcase the gyms facilities and equipment to potential users to encourage them to sign-up.
-As a gym owner, I want to provide potential members with the positive experiences of existing members to encourage them to sign-up.
-
-As an existing member, I want to find the latest information regarding upcoming gym events and class timetables so that I can attend.
-As an existing member, I want to see the latest motivational content posted by the gym so that I can stay inspired to work out!
-As an existing member, I want to connect to the gym's social network platforms so that I can see what's happening and contribute to the members' community.
-
-As a potential member, I want to learn about the services the gym provides so that I can decide if I am going to sign up.
-As a potential member, I want to provide my details so that I can avail of the free trial.
-As a potential member, I want to know the gym's location to help me decide if I'm going to sign-up.
-As a potential member, I want to find contact details so that I can talk to a member of staff.
+3. As a gym owner, I want to use the website as key marketing tool in order to build the gym's brand, culture and Unique Selling Point.
+4. As a gym owner, I want to showcase the gyms facilities and equipment to potential users to encourage them to sign-up.
+5. As a gym owner, I want to provide potential members with the positive experiences of existing members to encourage them to sign-up.
 
 The project provides solutions to the above User Stories as follows;
 
+1. Good semantic mark-up used throughout the website. Google Lightouse.
+2. A Callout Bar on the Home Page with links to a dedicated Sign-Up page where users can enter their contact information.
+3. Company logo is placed at the top of each web page and company slogan is displayed on Home Page.
+4. Facilities page lists the equipment and facilities available at the gym. Gallery page displays the same.
+5. Webpage members-quotes.html displays quotes from existing members.
 
+### Existing Member
 
-## Features TEMP
+6. As an existing member, I want to find the latest information regarding upcoming gym events and class timetables so that I can attend.
+7. As an existing member, I want to see the latest motivational content posted by the gym so that I can stay inspired to work out!
+8. As an existing member, I want to connect to the gym's social network platforms so that I can see what's happening and contribute to the members' community.
 
-In this section, you should go over the different parts of your project, and describe each in a sentence or so.
+The project provides solutions to the above User Stories as follows;
+
+6. "News" webpage for posting latest gym events and gym news and "Our Classes" webpage for description of each of the classes and class timetable.
+7. "Exercise of the Week" section on the "News" webpage for posting motivational videos and content.
+8. Footer of each webpage has links to the gym's social media accounts.
+
+### Potential Member
+
+9. As a potential member, I want to learn about what the gym provides so that I can decide if I am going to sign up.
+10. As a potential member, I want to provide my details so that I can avail of the free trial.
+11. As a potential member, I want to know the gym's location to help me decide if I'm going to sign-up.
+12. As a potential member, I want to find contact details so that I can talk to a member of staff.
+
+The project provides solutions to the above User Stories as follows;
+
+9. "Facilities" page lists the equipment and facilities available at the gym. "Gallery" page displays the same. "Our Classes" webpage for description of each of the classes and class timetable.
+10. Sign-Up page where users can enter their contact information.
+11. Map on "Home" page and gym address located on footer of each page.
+12. Contact details on the footer of each webpage.
 
 
 ## Features
 
 The below sections detail both the existing features and potential future fetaures yet to be developed.
 
- 
-### Existing Features TEMP
-- Feature 1 - allows users X to achieve Y, by having them fill out Z
-- ...
+### Existing Features
 
-For some/all of your features, you may choose to reference the specific project files that implement them, although this is entirely optional.
-
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
-
-### Existing Features TEMP
-
-
-
-
-
-### Features Left to Implement TEMP
-- Another feature idea 
+* Navigation Bar
+    * Situated conventionally at the top of the page, allows users to move between the webpages.
+    * ![](/assets/images/screenshots/navbar)
+* Callout Bar
+    * With "sticky-top" positioniong, encourages users to click to sign up for a free trial at the gym.
+* Gym Logo and slogan
+    * Reinforces the gym's brand.
+* "Reasons" Section
+    * Inspires potential members to sign up.
+* Map
+    * Provides location information.
+* Footer
+    * Provides contact details and links to the gym's social media accounts.
+* "Sign-Up" page
+    * Allows those interested to sign up for a free trial at the gym.
+* "Our Classes" page
+    * Provides information on each of the class types and the weekly class timetable.
+* "What Our Members Say" page
+    * Provides potential members with insgight from existing members, thus encouraging them to sign-up.
+* "Our Facilities" page
+    * Provides information on the gym's facilities and equipment.
+* "Gallery" page
+    * Displays images from inside the gym, displaying the interior of the gym to potential members and showing people working out in the gym in order to encourage them to sign up.
+* "News" page
+    * Disaplys news and information pertinent to existing members. "Exercise of the Week" section aims to encourage and motivate existing members by providing information on new exercise techniques.
 
 ### Features Left to Implement
-- Community Forum 
-- Class Booking online
+
+* Community Forum, whereby members can make posts and discuss relevant topics.
+* Class Booking online, whereby memebers can book themselves into one of the classes happening at the gym.
+
 
 ## Technologies Used
 
 In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
 
-- [JQuery](https://jquery.com)
-    - The project uses **JQuery** to simplify DOM manipulation.
+* HTML5
+    * For writing web content.
+
+* CSS3
+    * For styling HTML content.
+
+* Bootstrap HTML, CSS and Java Libraries
+    *  Bootstrap "navbar" for website navigation bar, Bootstrap "Grid" system for page layouts.
+
+* Unsplash Photo Library
+    * For photos.
+
+* Font Awesome
+    * For dumbbell icon used in gym logo. For social media icons in the footer.
+
+* Google Fonts
+    * For "Alfa Slab One" and "Lato" font types.
+
+* Gitpod
+    * For software development
+
+* Github
+    * For code hosting / storage.
+
+* Gitpages
+    * For deployment of code to the internet.
 
 
 ## Testing
