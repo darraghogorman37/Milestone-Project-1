@@ -115,7 +115,7 @@ The below resources were used to produce this project:
     * https://www.w3.org/Style/CSS/
 
 * Bootstrap's HTML, CSS and Java frameworks and libraries
-    *  Bootstrap "navbar" for website navigation bar, Bootstrap "Grid" system for page layouts.
+    *  Bootstrap "navbar" for website navigation bar, Bootstrap "Grid" system for page layouts, Boostrap's "button" for callout bar.
     *  https://getbootstrap.com/
 
 * jsDelivr
