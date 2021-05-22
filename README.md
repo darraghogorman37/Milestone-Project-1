@@ -146,7 +146,7 @@ The below resources were used to produce this project:
     * https://www.youtube.com/
 
 * Gitpod
-    * For software development.
+    * Integrated Development Environment (IDE).
     * https://www.gitpod.io/
 
 * Github
@@ -181,6 +181,23 @@ The below resources were used to produce this project:
 * W3C Markup Validator
     * For validating HTML code.
     * https://validator.w3.org/
+
+
+## Development Cycle and Commit Messages
+
+The Gitpod IDE was used to develop this project and changes to the files were "committed" and "pushed" to the project repository in GitHub as the development cycle progressed. When viewing the commit messages in the project repository, please take note that the following notation was used when committing;
+
+X.Y "Description of Changes Made to the File(s)"
+
+where X = a number associated with a particualar webpage (see below), Y = the Yth commit associated with this webpage
+
+X-values are as follows; for Home X=1, for Sign Up X=2, for Our Classes X=3, for What Our Members Say X=4, for Our Facilities X=5, for Gallery X=6, for News X=7
+
+For example, a commit message of "3.4 Changes to allow table re-sizing across various screen sizes" relates to changes made to the Our Classes page and this is the 4th commit relating to this page.
+
+Similarly, a commit titled "1.9 + 4.3 + 6.3 alt attributes added to images" relates to changes made to the Home, What Our Members Say and Gallery pages and these are the 9th, 3rd and 3rd respective commits relating to these pages.
+
+Where X and Y numbers do not precede the git commit message these are changes to the project files not specific to any one webpage, for example, the commit message "Updated Features section in README.md".
 
 
 ## Testing TEMP
