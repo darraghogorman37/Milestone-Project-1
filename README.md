@@ -19,7 +19,7 @@ The following User Stories were used to focus the development of the project;
 
 The project provides solutions to the above User Stories as follows;
 
-1. Clear semantic mark-up used throughout the website in accordance with good practice in UX design.
+1. A navigation bar, structured layout and clear semantic mark-up used throughout the website in accordance with good practice in UX design.
 2. A Callout Bar on the "Home" Page with links to a dedicated Sign-Up page where users can enter their contact information.
 3. The company logo is placed at the top of each web page and the company slogan is displayed on the "Home" Page.
 4. "Facilities" page lists the equipment and facilities available at the gym. "Gallery" page displays the same.
@@ -312,7 +312,7 @@ The photos used in this site were obtained from the following sources;
 * Feel Great; photo by Alora Griffiths, obtained from Unsplash.com.
 
 
-#### What Our Members Say
+#### What Our Members Say page
 
 * The photo of "Sarah Dooley" is by Katherine Hood obtinaed from Unsplash.com.
 * The photo is "Kate Smyth" is by Ayo Ogunseinde obtinaed from Unsplash.com.
@@ -321,7 +321,7 @@ The photos used in this site were obtained from the following sources;
 * The photo of "Scott Jones" is by Anastase Maragos obtinaed from Unsplash.com.
 
 
-#### Gallery
+#### Gallery page
 
 Note that the names of the photos as listed below are as per their name in the project folder Milestone-Project-1/assets/css/images/
 
