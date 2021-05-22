@@ -72,37 +72,37 @@ The below sections detail both the existing features and potential future fetaur
 
 * Navigation Bar
     * Situated conventionally at the top of the page, allows users to move between the webpages. Dispalys as hamburger style on mobile devices and conventional on larger sreen sizes.
-    * ![Navigation Bar on large screen](/assets/images/screenshots/navbar-small.jpg)
-    * ![Navigation Bar on small screen](/assets/images/screenshots/navbar-large.jpg)
+    * ![Navigation Bar on large screen](https://github.com/darraghogorman37/Milestone-Project-1/blob/cd831d7c9b66b4049f63da273de65c14a2c054d0/assets/images/screenshots/navbar-large.JPG)
+    * ![Navigation Bar on small screen](https://github.com/darraghogorman37/Milestone-Project-1/blob/cd831d7c9b66b4049f63da273de65c14a2c054d0/assets/images/screenshots/navbar-small.JPG)
 * Callout Bar
     * With "sticky-top" positioniong, encourages users to click to sign up for a free trial at the gym.
     * ![Callout Bar](https://github.com/darraghogorman37/Milestone-Project-1/blob/38debc0d0056ec2f976d73744ec944f3e2e6e802/assets/images/screenshots/callout-bar.JPG)
 * Gym Logo and slogan
     * Reinforces the gym's brand.
-    * ![Logo and Slogan](/assets/images/screenshots/logo+slogan.jpg)
+    * ![Logo and Slogan](https://github.com/darraghogorman37/Milestone-Project-1/blob/cd831d7c9b66b4049f63da273de65c14a2c054d0/assets/images/screenshots/logo+slogan.JPG)
 * "Reasons" Section
     * Inspires potential members to sign up with images of people in the gym.
 * Map
     * Provides location information.
 * Footer
     * Provides contact details and links to the gym's social media accounts.
-    * ![Footer](/assets/images/screenshots/footer.jpg)
+    * ![Footer](https://github.com/darraghogorman37/Milestone-Project-1/blob/cd831d7c9b66b4049f63da273de65c14a2c054d0/assets/images/screenshots/footer.JPG)
 * "Sign-Up" page
     * Allows those interested to sign up for a free trial at the gym.    
-    * ![Sign Up Page](/assets/images/screenshots/sign-up-page.jpg)
+    * ![Sign Up Page](https://github.com/darraghogorman37/Milestone-Project-1/blob/cd831d7c9b66b4049f63da273de65c14a2c054d0/assets/images/screenshots/sign-up-page.JPG)
 * "Our Classes" page
     * Provides information on each of the class types and the weekly class timetable.
-    * ![Class Timetable](/assets/images/screenshots/class-timetable.jpg)
+    * ![Class Timetable](https://github.com/darraghogorman37/Milestone-Project-1/blob/cd831d7c9b66b4049f63da273de65c14a2c054d0/assets/images/screenshots/class-timetable.JPG)
 * "What Our Members Say" page
     * Provides potential members with insight from existing members, thus encouraging them to sign-up.
-    * ![Member Quotes](/assets/images/screenshots/member-quotes.jpg)
+    * ![Member Quotes](https://github.com/darraghogorman37/Milestone-Project-1/blob/cd831d7c9b66b4049f63da273de65c14a2c054d0/assets/images/screenshots/member-quotes.JPG)
 * "Our Facilities" page
     * Provides information on the gym's facilities and equipment.
 * "Gallery" page
     * Displays images from inside the gym, displaying the interior of the gym to potential members and showing people working out in the gym in order to encourage them to sign up.
 * "News" page
     * Disaplys news and information pertinent to existing members. "Exercise of the Week" section aims to encourage and motivate existing members by providing information on new exercise techniques.
-    * ![News Page](/assets/images/screenshots/newspage.jpg)
+    * ![News Page](https://github.com/darraghogorman37/Milestone-Project-1/blob/cd831d7c9b66b4049f63da273de65c14a2c054d0/assets/images/screenshots/newspage.JPG)
 
 ### Features Left to Implement
 
