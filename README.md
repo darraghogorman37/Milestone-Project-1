@@ -105,36 +105,51 @@ In this section, you should mention all of the languages, frameworks, libraries,
 
 * HTML5
     * For writing web content.
+    * https://html.spec.whatwg.org/
 
 * CSS3
     * For styling HTML content.
+    * https://www.w3.org/Style/CSS/
 
 * Bootstrap HTML, CSS and Java Libraries
     *  Bootstrap "navbar" for website navigation bar, Bootstrap "Grid" system for page layouts.
+    *  https://getbootstrap.com/
 
 * Unsplash Photo Library
     * For photos.
+    * https://unsplash.com/
+
+* Pexels
+    * For photos.
+    * https://www.pexels.com/
 
 * Font Awesome
     * For dumbbell icon used in gym logo. For social media icons in the footer.
+    * https://fontawesome.com/
 
 * Google Fonts
     * For "Alfa Slab One" and "Lato" font types.
+    * https://fonts.google.com/
 
 * Google Maps
     * For use in `<iframe>` HTML element on Home page.
+    * https://www.google.com/maps
 
 * Youtube
     * For use in `<iframe>` HTML element on News page.
+    * https://www.youtube.com/
 
 * Gitpod
-    * For software development
+    * For software development.
+    * https://www.gitpod.io/
 
 * Github
     * For code hosting / storage.
+    * https://github.com/
 
 * Gitpages
     * For deployment of code to the internet.
+    * https://pages.github.com/
 
 * Google Chrome and Chrome Developer Tools
     * For examing webpage layout on various devices with different screen sizes.
@@ -142,19 +157,23 @@ In this section, you should mention all of the languages, frameworks, libraries,
 
 * Google Chrome Web Browser
     * For testing the layout of the webpage on this browser.
+    * https://www.google.com/intl/en_ie/chrome/
 
 * Internet Explorer
     * For testing the layout of the webpage on this browser.
+    * https://www.microsoft.com/en-ie/download/internet-explorer.aspx
 
 * Mozilla Firefox
     * For testing the layout of the webpage on this browser.
+    * https://www.mozilla.org/en-US/firefox/new/
 
 * W3C CSS Validator
     * For validating CSS code.
+    * https://jigsaw.w3.org/css-validator/
 
 * W3C Markup Validator
     * For validating HTML code.
-
+    * https://validator.w3.org/
 
 
 ## Testing TEMP
@@ -236,7 +255,7 @@ If this section grows too long, you may want to split it off into a separate fil
     XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 
 10. Cross-Device Testing
-    * The above testing procedures were carried out on each of the following real devices - 
+    * The above testing procedures 2-9 were carried out on each of the following real devices - 
         1. 1920 x 1080 pixel desktop monitor
         2. HP laptop with 1366 x 768 pixel screen
         3. Lenovo Tab M7 7" Tablet with 1024 x 600 pixel display XXXXXX
@@ -245,7 +264,10 @@ If this section grows too long, you may want to split it off into a separate fil
 
 ## Deployment
 
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
+Deployment of the project was achieved through the use of GitHub Pages.
+
+The project files were copied into a GitHub online repository which automatically deploys to the web address https://darraghogorman37.github.io/
+
 
 In particular, you should provide all details of the differences between the deployed version and the development version, if any, including:
 - Different values for environment variables (Heroku Config Vars)?
@@ -258,11 +280,59 @@ In addition, if it is not obvious, you should also describe how to run your code
 ## Credits
 
 ### Content
-- The text for section Y was copied from the [Wikipedia article Z](https://en.wikipedia.org/wiki/Z)
+
+The gym logo is based on the "dumbell" logo from the Font Awesome library. https://fontawesome.com/
+
+The social media icons located in the footer are based on icons from the Font Awesome library. https://fontawesome.com/
+
+The "Alfa Slab One" font-type used for the `<h1>` and `<h2>` headings and "Lato" font-type used for the company slogan on the Home page are from the Google Fonts library. https://fonts.google.com/
+
+The map on the Home Page is an `<iframe>` element linked to Google Maps. https://www.google.com/maps
+
+The Exercise of the Week is an `<iframe>` element linked to a YouTube video at web address https://www.youtube.com/watch?v=Ow58yHEl_Ls&t=16s by Omarlsuf.
+
 
 ### Media
-- The photos used in this site were obtained from ...
+- The photos used in this site were obtained from the following sources;
+
+#### Home Page
+
+Build Strength; photo by Sven Mieke, obtained from Unsplash.com.
+
+Get Flexible; photo by Sushil Ghimire, obtained from Unsplash.com.
+
+Burn Fat; photo by Leon Ardho, obtained from Pexels.com.
+
+Feel Great; photo by Alora Griffiths, obtained from Unsplash.com.
+
+#### What Our Members Say
+
+ The photo of "Sarah Dooley" is by Katherine Hood obtinaed from Unsplash.com.
+ The photo is "Kate Smyth" is by Ayo Ogunseinde obtinaed from Unsplash.com.
+ The photo of "John Harper" is by Karsten Winegeart obtinaed from Unsplash.com.
+ The photo if "Paula Radley" is by Sergio Pedemonte obtinaed from Unsplash.com.
+ The photo of "Scott Jones" is by Anastase Maragos obtinaed from Unsplash.com.
+
+#### Gallery
+
+Note that the names of the photos as listed below are as per their name in the project folder Milestone-Project-1/assets/css/images/
+
+barbell-work; by Sushil Ghimire obtained from Unsplash.com.
+boxing; by Sam Moqadam obtained from Unsplash.com.
+dumbells; by Danielle Cerullo obtained from Unsplash.com.
+floor-area-1; Humphrey Muleba obtained from Unsplash.com.
+floor-area-2; Risen Wang obtained from Unsplash.com.
+floor-area-3; Rodrigo Sarsfield obtained from Unsplash.com.
+pulley; Total Shape obtained from Unsplash.com.
+rack; Jelmer Assink obtained from Unsplash.com.
+ropes; Meghan Hholmes obtained from Unsplash.com.
+squat-rack; Javier-Santos-Guzman obtained from Unsplash.com.
+treadmills; Sven Mieke obtained from Unsplash.com.
+treadmills2; Chuttersnap obtained from Unsplash.com.
+weights; Brett Jordan obtained from Unsplash.com.
+yoga-pose; Emily Sea obtained from Unsplash.com.
+
 
 ### Acknowledgements
 
-- I received inspiration for this project from X
+- This project is dedicated to my fiancée for having the patience to allow me the time and space to complete it whilst I was still working a full-time job.
