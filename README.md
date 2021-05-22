@@ -76,7 +76,7 @@ The below sections detail both the existing features and potential future fetaur
     * ![Navigation Bar on small screen](/assets/images/screenshots/navbar-large.jpg)
 * Callout Bar
     * With "sticky-top" positioniong, encourages users to click to sign up for a free trial at the gym.
-    * ![Callout Bar](/assets/images/screenshots/callout-bar.jpg)
+    * ![Callout Bar](https://github.com/darraghogorman37/Milestone-Project-1/blob/38debc0d0056ec2f976d73744ec944f3e2e6e802/assets/images/screenshots/callout-bar.JPG)
 * Gym Logo and slogan
     * Reinforces the gym's brand.
     * ![Logo and Slogan](/assets/images/screenshots/logo+slogan.jpg)
@@ -88,7 +88,7 @@ The below sections detail both the existing features and potential future fetaur
     * Provides contact details and links to the gym's social media accounts.
     * ![Footer](/assets/images/screenshots/footer.jpg)
 * "Sign-Up" page
-    * Allows those interested to sign up for a free trial at the gym.
+    * Allows those interested to sign up for a free trial at the gym.    
     * ![Sign Up Page](/assets/images/screenshots/sign-up-page.jpg)
 * "Our Classes" page
     * Provides information on each of the class types and the weekly class timetable.
