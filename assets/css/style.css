@@ -350,11 +350,19 @@ li {
 
 #facilities p {
     text-align: justify;
+    margin-bottom: 2rem;
 }
 
 ul {
     list-style: none;
 }
+
+#facilities h2 p ul{
+    margin-left: 15px;
+    margin-right: 15px;
+
+}
+
 
 #facilities li::before {
     content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
