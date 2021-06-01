@@ -204,6 +204,10 @@ Similarly, a commit titled "1.9 + 4.3 + 6.3 alt attributes added to images" rela
 Where X and Y numbers do not precede the git commit message these are changes to the project files not specific to any one webpage, for example, the commit message "Updated Features section in README.md".
 
 
+## Code Validation
+
+All html code was run through the W3C Markup Validator (https://validator.w3.org/) and all CSS code was run through the W3C CSS Validator (https://jigsaw.w3.org/css-validator/). The CSS code was returned with no errors or warnings. There were a number of warnings associated with the HTML code where heading elements were not placed before section elements. Upon review it was not deemed appropriate to include these. There were no errors associated with the HTML code.
+
 ## Testing
 
 1. Test Deployment
@@ -218,46 +222,46 @@ Where X and Y numbers do not precede the git commit message these are changes to
     4. Click on the "view larger map" link within the Google Maps `<iframe>` and verify the Google map opens in a new browser window.
     5. Click on the "Here" callout button within the callout bar and verify this links to the Sign-Up page.
     6. Verify 4 photographs load as intended.
-    7. Verify the above steps 1-6 using each of the Google Chrome, Internet Explorer and Mozilla Firefox web browsers.
+    7. Verify the above steps i-vi using each of the Google Chrome, Internet Explorer and Mozilla Firefox web browsers.
     8. Using the emulator in Google Chrome developer tools, examine the webpage across all of the various devices available in the emulator. Verify the layout on each of the screen sizes is compliant with the principles of good User Experience design (that the layout, conent and styling change in accordance with the media screen queries employed in the stlyes.css file). 
 
 3. Sign-Up Page (General)
     1. Click on each of the navbar links and verify they each bring the user to the intended webpage.
     2. Click on each of the social media links in the footer and verify they open the correct social media webpage in a new browser window.
-    3. Verify the above steps 1-3 using each of the Google Chrome, Internet Explorer and Mozilla Firefox web browsers.
+    3. Verify the above steps i-ii using each of the Google Chrome, Internet Explorer and Mozilla Firefox web browsers.
     4. Using the emulator in Google Chrome developer tools, examine the webpage across all of the various devices available in the emulator. Verify the layout on each of the screen sizes is compliant with the principles of good User Experience design (that the layout, conent and styling change in accordance with the media screen queries employed in the stlyes.css file). 
 
 4. Our Classes Page
     1. Click on each of the navbar links and verify they each bring the user to the intended webpage.
     2. Click on each of the social media links in the footer and verify they open the correct social media webpage in a new browser window.
-    3. Verify the above steps 1-2 using each of the Google Chrome, Internet Explorer and Mozilla Firefox web browsers.
+    3. Verify the above steps i-ii using each of the Google Chrome, Internet Explorer and Mozilla Firefox web browsers.
     4. Using the emulator in Google Chrome developer tools, examine the webpage across all of the various devices available in the emulator. Verify the layout on each of the screen sizes is compliant with the principles of good User Experience design (that the layout, conent and styling change in accordance with the media screen queries employed in the stlyes.css file). 
 
 5. What Our Members Say page
     1. Click on each of the navbar links and verify they each bring the user to the intended webpage.
     2. Click on each of the social media links in the footer and verify they open the correct social media webpage in a new browser window.
     3. Verify 5 photographs load as intended.
-    4. Verify the above steps 1-3 using each of the Google Chrome, Internet Explorer and Mozilla Firefox web browsers.
+    4. Verify the above steps i-iii using each of the Google Chrome, Internet Explorer and Mozilla Firefox web browsers.
     5. Using the emulator in Google Chrome developer tools, examine the webpage across all of the various devices available in the emulator. Verify the layout on each of the screen sizes is compliant with the principles of good User Experience design (that the layout, conent and styling change in accordance with the media screen queries employed in the stlyes.css file). 
 
 6. Our Facilities page
     1. Click on each of the navbar links and verify they each bring the user to the intended webpage.
     2. Click on each of the social media links in the footer and verify they open the correct social media webpage in a new browser window.
-    3. Verify the above steps 1-2 using each of the Google Chrome, Internet Explorer and Mozilla Firefox web browsers.
+    3. Verify the above steps i-ii using each of the Google Chrome, Internet Explorer and Mozilla Firefox web browsers.
     4. Using the emulator in Google Chrome developer tools, examine the webpage across all of the various devices available in the emulator. Verify the layout on each of the screen sizes is compliant with the principles of good User Experience design (that the layout, conent and styling change in accordance with the media screen queries employed in the stlyes.css file). 
 
 7. Gallery page
     1. Click on each of the navbar links and verify they each bring the user to the intended webpage.
     2. Click on each of the social media links in the footer and verify they open the correct social media webpage in a new browser window.
     3. Verify 5 photographs load as intended.
-    4. Verify the above steps 1-3 using each of the Google Chrome, Internet Explorer and Mozilla Firefox web browsers.
+    4. Verify the above steps i-iii using each of the Google Chrome, Internet Explorer and Mozilla Firefox web browsers.
     5. Using the emulator in Google Chrome developer tools, examine the webpage across all of the various devices available in the emulator. Verify the layout on each of the screen sizes is compliant with the principles of good User Experience design (that the layout, conent and styling change in accordance with the media screen queries employed in the stlyes.css file). 
 
 8. News page 
     1. Click on each of the navbar links and verify they each bring the user to the intended webpage.
     2. Click on each of the social media links in the footer and verify they open the correct social media webpage in a new browser window.
     3. Verify the Youtube `<iframe>` loads as intended.
-    4. Verify the above steps 1-3 using each of the Google Chrome, Internet Explorer and Mozilla Firefox web browsers.
+    4. Verify the above steps i-iii using each of the Google Chrome, Internet Explorer and Mozilla Firefox web browsers.
     5. Using the emulator in Google Chrome developer tools, examine the webpage across all of the various devices available in the emulator. Verify the layout on each of the screen sizes is compliant with the principles of good User Experience design (that the layout, conent and styling change in accordance with the media screen queries employed in the stlyes.css file).
 
 9. Sign-Up page (Form)
