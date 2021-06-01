@@ -62,7 +62,7 @@ The below sections detail both the existing features and potential future fetaur
 ### Existing Features
 
 * Navigation Bar
-    * Situated conventionally at the top of the page, allows users to move between the webpages. Dispalys as hamburger style on mobile devices and conventionally spanning the width of the screen on larger sreen sizes.
+    * Situated conventionally at the top of the page, allows users to move between the webpages. Displays as hamburger style on mobile devices and conventionally spanning the width of the screen on larger sreen sizes.
     ![Navigation Bar on large screen](https://github.com/darraghogorman37/Milestone-Project-1/blob/cd831d7c9b66b4049f63da273de65c14a2c054d0/assets/images/screenshots/navbar-large.JPG)
     ![Navigation Bar on small screen](https://github.com/darraghogorman37/Milestone-Project-1/blob/cd831d7c9b66b4049f63da273de65c14a2c054d0/assets/images/screenshots/navbar-small.JPG)
 * Callout Bar
@@ -92,14 +92,14 @@ The below sections detail both the existing features and potential future fetaur
 * "Gallery" page
     * Displays images from inside the gym, displaying the interior of the gym to potential members and showing people working out in the gym in order to encourage them to sign up.
 * "News" page
-    * Disaplys news and information pertinent to existing members. "Exercise of the Week" section aims to encourage and motivate existing members by providing information on new exercise techniques.
+    * Displays news and information pertinent to existing members. "Exercise of the Week" section aims to encourage and motivate existing members by providing information on new exercise techniques.
     ![News Page](https://github.com/darraghogorman37/Milestone-Project-1/blob/cd831d7c9b66b4049f63da273de65c14a2c054d0/assets/images/screenshots/newspage.JPG)
 
 
 ### Features Left to Implement
 
 * Community Forum, whereby members can make posts and discuss relevant topics.
-* Class Booking online, whereby memebers can book themselves into one of the classes happening at the gym.
+* Class Booking online, whereby members can book themselves into one of the classes happening at the gym.
 
 
 ## Technologies Used
@@ -207,6 +207,9 @@ Where X and Y numbers do not precede the git commit message these are changes to
 ## Testing
 
 1. Test Deployment
+    1. Visit the relevant webpage address (https://darraghogorman37.github.io/) and ensure site is live.
+    2. Visit the above address via Google Chrome, Internet Explorer and Mozilla Firefox browsers.
+    3. Compare the "deployed" version of the website with the version outputted from the source code in the project repository.
 
 2. Home Page
     1. Click on each of the navbar links and verify they each bring the user to the intended webpage.
@@ -227,7 +230,7 @@ Where X and Y numbers do not precede the git commit message these are changes to
 4. Our Classes Page
     1. Click on each of the navbar links and verify they each bring the user to the intended webpage.
     2. Click on each of the social media links in the footer and verify they open the correct social media webpage in a new browser window.
-    3. Verify the above steps 1-4 using each of the Google Chrome, Internet Explorer and Mozilla Firefox web browsers.
+    3. Verify the above steps 1-2 using each of the Google Chrome, Internet Explorer and Mozilla Firefox web browsers.
     4. Using the emulator in Google Chrome developer tools, examine the webpage across all of the various devices available in the emulator. Verify the layout on each of the screen sizes is compliant with the principles of good User Experience design (that the layout, conent and styling change in accordance with the media screen queries employed in the stlyes.css file). 
 
 5. What Our Members Say page
@@ -247,7 +250,7 @@ Where X and Y numbers do not precede the git commit message these are changes to
     1. Click on each of the navbar links and verify they each bring the user to the intended webpage.
     2. Click on each of the social media links in the footer and verify they open the correct social media webpage in a new browser window.
     3. Verify 5 photographs load as intended.
-    4. Verify the above steps 1-6 using each of the Google Chrome, Internet Explorer and Mozilla Firefox web browsers.
+    4. Verify the above steps 1-3 using each of the Google Chrome, Internet Explorer and Mozilla Firefox web browsers.
     5. Using the emulator in Google Chrome developer tools, examine the webpage across all of the various devices available in the emulator. Verify the layout on each of the screen sizes is compliant with the principles of good User Experience design (that the layout, conent and styling change in accordance with the media screen queries employed in the stlyes.css file). 
 
 8. News page 
@@ -267,17 +270,19 @@ Where X and Y numbers do not precede the git commit message these are changes to
         3. Lenovo Tab M7 7" Tablet with 1024 x 600 pixel display
         4. Samsung Galaxy Phone A7 (A750FN) 600 x 287 pixel display
 
+The following minor issues remain unresolved after testing and bug-fixing;
+
+1. When viewing on the Internet Explorer web browser, the dumbbell logo used as part of the company logo does not sit centrally in the red radial border.
+2. For the What Our Members Say, Our Facilities and News webpages there is a slight color contrast between the logo background area and the background area in the sections beneath.
+3. At certain screen sizes the radial border around the dumbbell icon can become distorted and appear more oval than round.
+4. On the News page, the post "Headline" or "Topic" does not appear in the dead centre of the page and the visual impact of this is accenuated with increasing screen width. It becomes particularly noticeable at the desktop range of screen sizes.
+5. The "Submit" button in the Sign-Up page appears as "Submit Query" in Internet Explorer.
 
 ## Deployment
 
 Deployment of the project was achieved through the use of GitHub Pages.
 
 The project files were copied into a GitHub online repository which automatically deploys to the web address https://darraghogorman37.github.io/
-
-In particular, you should provide all details of the differences between the deployed version and the development version, if any, including:
-- Different values for environment variables (Heroku Config Vars)?
-- Different configuration files?
-- Separate git branch?
 
 
 ## Credits
