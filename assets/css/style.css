@@ -313,8 +313,13 @@ li {
     margin: 30px;
 }
 
-.post-date-topic {
-    width: 50%;
+.post-date {
+    text-align: left;
+}
+
+.post-topic {
+    text-align: center;
+    margin-left: -30px;
 }
 
 .post-text {
